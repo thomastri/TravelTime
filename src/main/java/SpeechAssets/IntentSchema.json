@@ -1,0 +1,35 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "GetMapIntent",
+      "samples": [
+        "get my travel time",
+        "how long does it take for me to get to work",
+        "what's the traffic",
+        "how long is my drive",
+        "how long will it take me to get to work",
+        "how long is the commute",
+        "what is my travel time",
+        "what is my commute",
+        "how's the traffic",
+        "give me info",
+        "talk to me",
+        "about my travel time",
+        "give me my travel time"
+      ],
+      "slots": []
+    }
+  ]
+}
