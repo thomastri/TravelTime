@@ -85,6 +85,7 @@ public class TravelTimeSpeechlet implements Speechlet {
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
 
+        // Main method
         if ("GetMapIntent".equals(intentName)) {
             try {
                 return getMapDataResponse();
